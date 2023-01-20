@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F88FB72D297B243E0034FF62 /* BadgeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88FB72C297B243E0034FF62 /* BadgeButton.swift */; };
 		F8A5A7B9294A353600FB7981 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A5A7B8294A353600FB7981 /* AppDelegate.swift */; };
 		F8A5A7BB294A353600FB7981 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A5A7BA294A353600FB7981 /* SceneDelegate.swift */; };
 		F8A5A7BD294A353600FB7981 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A5A7BC294A353600FB7981 /* ViewController.swift */; };
@@ -23,12 +24,12 @@
 		F8B9BBCD29553B44008E86EF /* StudyingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B9BBCC29553B44008E86EF /* StudyingViewController.swift */; };
 		F8EE02CC2951147F00652D68 /* FindFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EE02CB2951147F00652D68 /* FindFriendViewController.swift */; };
 		F8EE02CE2952525700652D68 /* AddFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EE02CD2952525700652D68 /* AddFriendViewController.swift */; };
-		F8EE02D02952647F00652D68 /* BadgeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EE02CF2952647F00652D68 /* BadgeButton.swift */; };
 		F8EE02D229527A3900652D68 /* FriendRequestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EE02D129527A3900652D68 /* FriendRequestsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F82DFE5029783A470079EE31 /* Language Study.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Language Study.entitlements"; sourceTree = "<group>"; };
+		F88FB72C297B243E0034FF62 /* BadgeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BadgeButton.swift; path = ../../BadgeButton.swift; sourceTree = "<group>"; };
 		F8A5A7B5294A353600FB7981 /* Language Study.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Language Study.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8A5A7B8294A353600FB7981 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F8A5A7BA294A353600FB7981 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -44,11 +45,9 @@
 		F8A5A7D4294FF24900FB7981 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
 		F8A5A7D62950FF4600FB7981 /* FriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
 		F8A5A7D82951037D00FB7981 /* Friends.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friends.swift; sourceTree = "<group>"; };
-		F8B9BBCA2955177A008E86EF /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		F8B9BBCC29553B44008E86EF /* StudyingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyingViewController.swift; sourceTree = "<group>"; };
 		F8EE02CB2951147F00652D68 /* FindFriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindFriendViewController.swift; sourceTree = "<group>"; };
 		F8EE02CD2952525700652D68 /* AddFriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFriendViewController.swift; sourceTree = "<group>"; };
-		F8EE02CF2952647F00652D68 /* BadgeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BadgeButton.swift; path = ../../../Documents/BadgeButton/BadgeButton/BadgeButton.swift; sourceTree = "<group>"; };
 		F8EE02D129527A3900652D68 /* FriendRequestsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendRequestsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -83,6 +82,7 @@
 		F8A5A7B7294A353600FB7981 /* Language Study */ = {
 			isa = PBXGroup;
 			children = (
+				F88FB72C297B243E0034FF62 /* BadgeButton.swift */,
 				F82DFE5029783A470079EE31 /* Language Study.entitlements */,
 				F8A5A7B8294A353600FB7981 /* AppDelegate.swift */,
 				F8A5A7BA294A353600FB7981 /* SceneDelegate.swift */,
@@ -102,7 +102,6 @@
 				F8A5A7D82951037D00FB7981 /* Friends.swift */,
 				F8A5A7D0294FAD6200FB7981 /* Server.swift */,
 				F8EE02CD2952525700652D68 /* AddFriendViewController.swift */,
-				F8EE02CF2952647F00652D68 /* BadgeButton.swift */,
 			);
 			path = "Language Study";
 			sourceTree = "<group>";
@@ -110,7 +109,6 @@
 		F8B9BBC92955174E008E86EF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F8B9BBCA2955177A008E86EF /* libz.tbd */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -190,7 +188,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8EE02D02952647F00652D68 /* BadgeButton.swift in Sources */,
 				F8EE02CE2952525700652D68 /* AddFriendViewController.swift in Sources */,
 				F8A5A7CD294E4E7B00FB7981 /* LoginViewController.swift in Sources */,
 				F8A5A7D72950FF4600FB7981 /* FriendsViewController.swift in Sources */,
@@ -203,6 +200,7 @@
 				F8A5A7CF294FAC3E00FB7981 /* User.swift in Sources */,
 				F8EE02CC2951147F00652D68 /* FindFriendViewController.swift in Sources */,
 				F8A5A7BB294A353600FB7981 /* SceneDelegate.swift in Sources */,
+				F88FB72D297B243E0034FF62 /* BadgeButton.swift in Sources */,
 				F8A5A7D1294FAD6300FB7981 /* Server.swift in Sources */,
 				F8B9BBCD29553B44008E86EF /* StudyingViewController.swift in Sources */,
 			);

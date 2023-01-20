@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import SocketIO
 
 let TEST: Bool = false;
 let TEST_TIME_LEFT = 60 * 3;
